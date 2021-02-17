@@ -14,59 +14,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="img/logo2.png" type="image/gif" sizes="16x16">
   </head>
   <body>
-    <!--CONTAINER-->
-    <div class="container">
-      <div class="wrapper">
+    <div class="header clearfix">
+
+      <div class="wrapper clearfix">
+
         <!--title del header-->
-        <div class="header-title">
-          <img src="img/name.png" alt="JEPARIS Logo">
+        <div class="header-title clearfix">
+          <img src="img/Logo2.png" alt="Jeareth Logo">
         </div>
 
-        <!--lista del header-->
-        <div class="header-list">
+        <!--lista del headder-->
+        <div class="header-list clearfix">
+
           <ul class="header-list-nav clearfix">
 
             <li><a href="index.html">Inicio</a></li>
             <li><a href="about-me.html">Sobre mí</a></li>
             <li><a href="portfolio.html">Portafolio</a></li>
             <li><a href="contact.html">Contacto</a></li>
+
           </ul>
         </div>
 
+        <div class="about-me-site-map clearfix">
+
+          <a target="_blank" href="index.html">Inicio</a>
+          <a target="_blank" href="about-me.html">/ Sobre mí</a>
+          <a target="_blank" href="about-me.html">/ Portafolio</a>
+          <a target="_blank" href="index.html"><strong>/ Contacto</strong></a>
+
+        </div>
       </div>
-      <div class="main-content">
-        <div class="form-content">
-          <!--form-->
-          <div class="form-info">
-            <form id="form">
-              <div class="square-form">
-                <div class="box clearfix">
-                  <label for="name"></label>
-                  <input type="text" placeholder="Nombre Completo"  class="contact" id="name" required/>
-                </div>
+    </div>
+    <div class="wrapper clearfix">
+      <div class="text-form clearfix">
+        <h3>Contácteme</h3>
+        <p>También puedes visitar mi cuenta de github <a href="https://github.com/jeareth-venegas">aquí</a></p>
+      </div>
+      <form action="">
+        <div class="line">
+          <input type="text" name="nombre" placeholder="Nombre" class="required" />
+        </div>
 
-                <div class="box clearfix">
-                  <label for="email"></label>
-                  <input type="text" placeholder="ejemplo@gmail.com"  class="contact" id="email" required/>
-                </div>
+        <div class="line">
+          <input type="text" name="apellido" placeholder="Apellido" class="required" />
+        </div>
 
-                <div class="box clearfix">
-                  <label for="phone"></label>
-                  <input type="text" placeholder="2222-2222" class="contact" id="phone">
-                </div>
+        <div class="line">
+          <input type="email" name="email" placeholder="Email" class="required" />
+        </div>
 
-                <div class="box clearfix">
-                  <label for="message"></label>
-                  <textarea placeholder="Mensaje"  class="contact" id="message" required></textarea>
-                </div>
+        <div class="line">
+          <input type="phone" placeholder="Telefono"/>
+        </div>
 
-                <input type="submit" value="Enviar" class="form-button">
-              </div>
-            </form>
+        <button class="form-button">
+          Enviar
+        </button>
+      </form>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="js/script.js"></script>
   </body>
-</html
+</html>
