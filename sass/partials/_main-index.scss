@@ -1,0 +1,35 @@
+.hero-home {
+
+  background-image: url("../img/black-sunflower.png") ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  height: 681px ;
+  padding-top: 65px ;
+}
+
+.hero-home-content{
+
+  color: $white ;
+  margin-bottom: 100px ;
+  margin-left: 190px ;
+}
+
+.hero-home-content a {
+
+  border: 2px solid $white;
+  border-radius: 44px;
+  color: $white;
+  display: inline-block;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 100px;
+}
+.hero-home-content a:hover {
+  background-color: $yellow-hover;
+  color: $black;
+  font-weight: bold ;
+}
+
