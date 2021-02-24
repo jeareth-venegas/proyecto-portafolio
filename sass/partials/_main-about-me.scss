@@ -1,0 +1,47 @@
+.about-me-site-map {
+
+  @include site-map ;
+  float: left ;
+  padding-left: 100px;
+  padding-top: 100px ;
+}
+
+
+.content-box {
+
+  background-color: $white;
+  border-radius: 10 px ;
+  display: flex ;
+  margin: 0 auto ;
+  margin-top: 200px ;
+  width: 35.71% ;
+}
+
+
+.img-about-me img {
+
+  margin: 0 ;
+  padding: 0 ;
+  width: 500px ;
+}
+
+.text-about-me {
+
+  padding: 10px ;
+}
+
+.text-about-me {
+
+  h2 {
+
+    font-family: $brush ;
+    font-size: 4.375em ;
+    text-align: center ;
+  }
+  p {
+
+    font-family: $roboto ;
+    font-size: 1.875em ;
+    text-align: center ;
+  }
+}
