@@ -1,0 +1,54 @@
+.project-list {
+
+  margin: 0 auto ;
+}
+
+.project-list {
+
+  float: right ;
+  padding-right: 45px;
+
+  a {
+
+    @include anchor($yellow, 30px, $yellow-hover) ;
+  }
+}
+
+.box {
+
+  float: left;
+  margin-left: 55px ;
+  margin-bottom: 128px ;
+  padding-top: 84px ;
+  width: 313px ;
+}
+
+.box-title {
+  h2{
+    color: $white ;
+    font-family: $baskerville ;
+    font-size: 20px ;
+  }
+}
+
+.box a {
+
+  border: 2px solid $white;
+  border-radius: 44px;
+  color: $white;
+  display: inline-block;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 100px;
+
+}
+
+.box a:hover {
+  background-color: $yellow-hover;
+  color: $black;
+  font-weight: bold ;
+}
+

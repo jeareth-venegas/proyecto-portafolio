@@ -1,3 +1,12 @@
+.contact-site-map {
+
+  @include site-map ;
+  float: left ;
+  padding-left: 100px;
+  padding-top: 100px ;
+}
+
+
 .form {
 
   float : right ;
@@ -64,13 +73,22 @@
 
 .form-button {
 
-  @include button ($brown, $white) ;
-  margin-left: 455px ;
-  color: $white ;
+  background-color: $black ;
+  border: 2px solid $white;
+  border-radius: 44px;
+  color: $white;
+  display: inline-block;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 100px;
 
   &:hover {
 
-    background-color: $orange-hover ;
-    color: $brown ;
+    background-color: $yellow-hover;
+    color: $black;
+    font-weight: bold ;
   }
 }
