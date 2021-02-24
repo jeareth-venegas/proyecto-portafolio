@@ -1,0 +1,38 @@
+.header-list{
+
+  float: left ;
+  margin-left: 457px ;
+  margin-top: 42px ;
+}
+
+.header-list-nav {
+
+  li{
+
+    float: left ;
+    list-style: none ;
+
+    a{
+
+      @include anchor($white, 1.875em, $yellow-hover) ;
+    }
+  }
+  li+li{
+
+    margin-left: 120px ;
+  }
+}
+
+.header-title{
+
+  float: left ;
+  margin-top: 25px ;
+  margin-left: 10% ;
+  width: 40% ;
+
+  img{
+
+    width: 10% ;
+    height: 10% ;
+  }
+}

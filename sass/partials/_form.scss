@@ -1,0 +1,76 @@
+.form {
+
+  float : right ;
+}
+
+.line {
+  margin-bottom : 1rem ;
+}
+
+.line label {
+  display : block ;
+}
+
+.msj-error {
+  background-color : pink ;
+  border : 1px solid red ;
+}
+
+.msj-valid {
+  background-color : lightgreen ;
+  border: 1px solid darkgreen ;
+}
+
+.line input {
+
+  color : $light-gray ;
+  font-family : $roboto ;
+  font-size : 1.785em ;
+  height : 70px ;
+  margin : 0 ;
+  padding : 0 ;
+  width : 500px ;
+}
+
+
+.contact-title {
+
+  text-align: center ;
+}
+
+.text-form {
+  color: $white ;
+  font-weight: 400 ;
+  h3 {
+    font-family: $baskerville ;
+    font-size: 3.75em ;
+  }
+  p{
+    font-family: $roboto ;
+    font-size: 1.785em;
+  }
+  a {
+    color: $white ;
+    font-family: $roboto ;
+    font-size: 1.785em;
+    }
+  }
+
+.form-contact{
+  display: block ;
+  float: left ;
+  margin-top: 200px ;
+}
+
+.form-button {
+
+  @include button ($brown, $white) ;
+  margin-left: 455px ;
+  color: $white ;
+
+  &:hover {
+
+    background-color: $orange-hover ;
+    color: $brown ;
+  }
+}
