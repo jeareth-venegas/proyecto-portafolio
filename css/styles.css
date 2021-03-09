@@ -317,6 +317,13 @@ html {
   margin: 0;
   padding: 0; }
 
+body {
+  background-image: url("../img/sunflower1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 799px;
+  max-width: 100%; }
+
 li {
   list-style: none; }
 
@@ -325,40 +332,35 @@ ul {
   padding: 0; }
 
 .header-list {
-  float: left;
-  margin-left: 457px;
-  margin-top: 42px; }
+  float: right;
+  padding-top: 30px; }
 
 .header-list-nav li {
   float: left;
   list-style: none; }
   .header-list-nav li a {
-    color: #FFFFFF;
+    color: #522211;
     font-family: "Roboto", sans-serif;
-    font-size: 1.875em;
+    font-size: 1.125em;
     text-decoration: none; }
     .header-list-nav li a:hover {
-      color: #f1cd62;
+      color: #CA741A;
       text-decoration: underline; }
 
 .header-list-nav li + li {
   margin-left: 120px; }
 
 .header-title {
-  float: left;
-  margin-top: 25px;
-  margin-left: 10%;
-  width: 40%; }
+  float: left; }
   .header-title img {
-    width: 10%;
-    height: 10%; }
+    width: 12%;
+    height: 12%;
+    margin: 0;
+    padding-top: 10px; }
 
 .hero-home {
-  background-image: url("../img/black-sunflower.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 681px;
-  padding-top: 65px; }
+  padding-top: 500px;
+  padding-left: 150px; }
 
 .hero-home-content {
   color: #FFFFFF;
@@ -366,33 +368,38 @@ ul {
   margin-left: 190px; }
 
 .hero-home-content a {
+  background-color: #FFFFFF;
   border: 2px solid #FFFFFF;
   border-radius: 44px;
-  color: #FFFFFF;
+  color: #522211;
   display: inline-block;
+  font-size: 1.25em;
+  font-family: "Roboto", sans-serif;
   outline: none;
-  padding: 8px;
+  padding: 20px 20px;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  width: 100px; }
+  width: 200px; }
 
 .hero-home-content a:hover {
-  background-color: #f1cd62;
-  color: #000000;
+  background-color: #CA741A;
+  color: #FFFFFF;
   font-weight: bold; }
 
 .about-me-site-map {
   font-family: "Libre Baskerville", serif;
   float: left;
   padding-left: 100px;
-  padding-top: 100px; }
+  padding-top: 50px; }
   .about-me-site-map a {
-    color: #FFFFFF;
+    color: #522211;
     font-size: 20px;
     text-decoration: none; }
     .about-me-site-map a strong {
-      color: #f1cd62; }
+      color: #522211; }
+    .about-me-site-map a strong:hover {
+      text-decoration: underline; }
 
 .center {
   margin: 0 auto;
@@ -400,7 +407,6 @@ ul {
 
 .content-box {
   background-color: #FFFFFF;
-  border-radius: 10 px;
   display: flex;
   margin: 0 auto;
   margin-top: 200px; }
@@ -408,7 +414,7 @@ ul {
 #image-about-me {
   background-image: url(../../img/about-me.jpg);
   background-size: cover;
-  width: 100%; }
+  width: 2000px; }
 
 .img-about-me img {
   margin: 0;
@@ -429,17 +435,41 @@ ul {
   margin-bottom: 100px;
   text-align: center; }
 
+.hero-about-me-content {
+  color: #522211;
+  margin-bottom: 100px;
+  margin-left: 190px; }
+
+.hero-about-me-content a {
+  border: 2px solid #522211;
+  border-radius: 44px;
+  color: #522211;
+  display: inline-block;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 100px; }
+
+.hero-about-me-content a:hover {
+  background-color: #CA741A;
+  color: #FFFFFF;
+  font-weight: bold; }
+
 .contact-site-map {
   font-family: "Libre Baskerville", serif;
   float: left;
   padding-left: 100px;
   padding-top: 100px; }
   .contact-site-map a {
-    color: #FFFFFF;
+    color: #522211;
     font-size: 20px;
     text-decoration: none; }
     .contact-site-map a strong {
-      color: #f1cd62; }
+      color: #522211; }
+    .contact-site-map a strong:hover {
+      text-decoration: underline; }
 
 .form {
   float: right; }
