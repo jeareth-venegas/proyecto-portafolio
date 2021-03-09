@@ -22,12 +22,15 @@
   font-family: $baskerville;
 
   a{
-    color: $white;
+    color: $brown;
     font-size: 20px;
     text-decoration: none;
 
     strong{
-      color: $yellow-hover;
+      color: $brown;
+    }
+    strong:hover{
+      text-decoration: underline;
     }
   }
 }

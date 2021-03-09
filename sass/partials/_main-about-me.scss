@@ -3,7 +3,7 @@
   @include site-map ;
   float: left ;
   padding-left: 100px;
-  padding-top: 100px ;
+  padding-top: 50px ;
 }
 
 .center {
@@ -22,7 +22,7 @@
 
   background-image: url(../../img/about-me.jpg);
   background-size: cover;
-  width: 100% ;
+  width: 2000px ;
 }
 .img-about-me img {
 
@@ -51,4 +51,30 @@
     margin-bottom: 100px ;
     text-align: center ;
   }
+}
+
+.hero-about-me-content{
+
+  color: $brown ;
+  margin-bottom: 100px ;
+  margin-left: 190px ;
+}
+
+.hero-about-me-content a {
+
+  border: 2px solid $brown;
+  border-radius: 44px;
+  color: $brown;
+  display: inline-block;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 100px;
+}
+.hero-about-me-content a:hover {
+  background-color: $orange-hover;
+  color: $white;
+  font-weight: bold ;
 }
