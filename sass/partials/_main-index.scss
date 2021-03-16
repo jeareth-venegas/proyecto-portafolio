@@ -1,16 +1,16 @@
-.hero-home {
+.hero__home {
   padding-top: 500px;
   padding-left: 150px
 }
 
-.hero-home-content {
+.hero__home__content {
 
   color: $white ;
   margin-bottom: 100px ;
   margin-left: 190px ;
 }
 
-.hero-home-content a {
+.hero__home__content a {
 
   background-color: $white;
   border: 2px solid $white;
@@ -26,7 +26,7 @@
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
   width: 200px;
 }
-.hero-home-content a:hover {
+.hero__home__content a:hover {
   background-color: $orange-hover;
   color: $white;
   font-weight: bold ;

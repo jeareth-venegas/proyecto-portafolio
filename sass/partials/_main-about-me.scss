@@ -1,12 +1,12 @@
-.about-me-site-map {
+.aboutme__sitemap {
 
   @include site-map ;
   float: left ;
-  padding-left: 100px;
+  padding-right: 700px;
   padding-top: 50px ;
 }
 
-.content-box {
+.content__box {
 
   background-color: $white;
   display: flex;
@@ -23,18 +23,18 @@
   //height: 550px;
   width: 1500px ;
 }
-.img-about-me img {
+.img-about__me img {
 
   margin: 0 ;
   padding: 0 ;
   width: 500px ;
 }
 
-.text-about-me {
+.text__about-me {
   padding: 20px;
 }
 
-.text-about-me {
+.text__about-me {
 
   h2 {
 
@@ -49,19 +49,19 @@
   }
 }
 
-.hero-about-me{
+.hero__about-me{
   padding-top: 500px;
 }
 
 
-.hero-about-me-content{
+.hero__about-me__content{
 
   color: $brown ;
   margin-bottom: 100px ;
   margin-left: 190px ;
 }
 
-.hero-about-me-content a {
+.hero__about-me__content a {
 
   border: 2px solid $brown;
   border-radius: 44px;
@@ -75,7 +75,7 @@
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
   width: 100px;
 }
-.hero-about-me-content a:hover {
+.hero__about-me__content a:hover {
   background-color: $orange-hover;
   color: $white;
   font-weight: bold ;
