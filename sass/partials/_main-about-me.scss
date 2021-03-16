@@ -3,21 +3,26 @@
   @include site-map ;
   float: left ;
   padding-left: 100px;
-  padding-top: 100px ;
+  padding-top: 50px ;
 }
-
 
 .content-box {
 
   background-color: $white;
-  border-radius: 10 px ;
-  display: flex ;
-  margin: 0 auto ;
-  margin-top: 200px ;
-  width: 35.71% ;
+  display: flex;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 900px;
 }
 
+#image-about-me{
 
+  background-image: url(../../img/about-me.jpg);
+  background-size: cover;
+  //height: 550px;
+  width: 1500px ;
+}
 .img-about-me img {
 
   margin: 0 ;
@@ -26,8 +31,7 @@
 }
 
 .text-about-me {
-
-  padding: 10px ;
+  padding: 20px;
 }
 
 .text-about-me {
@@ -41,7 +45,38 @@
   p {
 
     font-family: $roboto ;
-    font-size: 1.875em ;
-    text-align: center ;
+    font-size: 1.125em ;
   }
+}
+
+.hero-about-me{
+  padding-top: 500px;
+}
+
+
+.hero-about-me-content{
+
+  color: $brown ;
+  margin-bottom: 100px ;
+  margin-left: 190px ;
+}
+
+.hero-about-me-content a {
+
+  border: 2px solid $brown;
+  border-radius: 44px;
+  color: $brown;
+  display: inline-block;
+  font-family: $roboto;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 100px;
+}
+.hero-about-me-content a:hover {
+  background-color: $orange-hover;
+  color: $white;
+  font-weight: bold ;
 }
