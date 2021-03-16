@@ -1,17 +1,26 @@
-.project-list {
+.portfolio__site-map{
 
-  margin: 0 auto ;
+  @include site-map ;
+  float: left ;
+  padding-right: 700px;
+  padding-top: 50px;
+  margin-bottom: 20px;
 }
 
-.project-list {
+.project__list {
 
-  float: right ;
-  padding-right: 45px;
+  float: left;
+  margin: 0 auto ;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-right: 150px;
+}
 
-  a {
+.project__list {
 
-    @include anchor($yellow, 30px, $yellow-hover) ;
-  }
+  background-color: rgba(255, 255, 255, 0.294);
+  border: 1px solid rgba(255, 255, 255, 0.246);
+  border-radius: 44px;
 }
 
 .box {
@@ -23,32 +32,40 @@
   width: 313px ;
 }
 
+.box img{
+  height: 200px;
+  width: 300px;
+}
+
 .box-title {
   h2{
-    color: $white ;
-    font-family: $baskerville ;
-    font-size: 20px ;
+    color: $brown;
+    font-family: $roboto;
+    font-size: 1.5625em;
+    text-shadow: 2px 2px $white;
   }
 }
 
-.box a {
+.box-button{
 
+  background-color: $white;
   border: 2px solid $white;
   border-radius: 44px;
-  color: $white;
+  color: $brown;
   display: inline-block;
+  font-family: $roboto;
   outline: none;
   padding: 8px;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  width: 100px;
-
+  width: 200px;
+  .box-button:hover {
+    background-color: $orange-hover;
+    color: $brown;
+    font-weight: bold ;
+  }
 }
 
-.box a:hover {
-  background-color: $yellow-hover;
-  color: $black;
-  font-weight: bold ;
-}
+
 
