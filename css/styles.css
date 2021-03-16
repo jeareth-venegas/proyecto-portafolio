@@ -331,28 +331,28 @@ ul {
   margin: 0;
   padding: 0; }
 
-.header-list {
+.header__list {
   float: right;
   padding-top: 30px; }
 
-.header-list-nav li {
+.header__list__nav li {
   float: left;
   list-style: none; }
-  .header-list-nav li a {
+  .header__list__nav li a {
     color: #522211;
     font-family: "Roboto", sans-serif;
     font-size: 1.125em;
     text-decoration: none; }
-    .header-list-nav li a:hover {
+    .header__list__nav li a:hover {
       color: #CA741A;
       text-decoration: underline; }
 
-.header-list-nav li + li {
+.header__list__nav li + li {
   margin-left: 120px; }
 
-.header-title {
+.header__title {
   float: left; }
-  .header-title img {
+  .header__title img {
     width: 12%;
     height: 12%;
     margin: 0;
@@ -401,20 +401,18 @@ ul {
     .about-me-site-map a strong:hover {
       text-decoration: underline; }
 
-.center {
-  margin: 0 auto;
-  width: 1400px; }
-
 .content-box {
   background-color: #FFFFFF;
   display: flex;
+  height: 600px;
   margin: 0 auto;
-  margin-top: 200px; }
+  margin-top: 100px;
+  width: 900px; }
 
 #image-about-me {
   background-image: url(../../img/about-me.jpg);
   background-size: cover;
-  width: 2000px; }
+  width: 1500px; }
 
 .img-about-me img {
   margin: 0;
@@ -422,7 +420,7 @@ ul {
   width: 500px; }
 
 .text-about-me {
-  padding: 10px; }
+  padding: 20px; }
 
 .text-about-me h2 {
   font-family: "Alex Brush", cursive;
@@ -431,9 +429,10 @@ ul {
 
 .text-about-me p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.875em;
-  margin-bottom: 100px;
-  text-align: center; }
+  font-size: 1.125em; }
+
+.hero-about-me {
+  padding-top: 500px; }
 
 .hero-about-me-content {
   color: #522211;
@@ -445,6 +444,7 @@ ul {
   border-radius: 44px;
   color: #522211;
   display: inline-block;
+  font-family: "Roboto", sans-serif;
   outline: none;
   padding: 8px;
   text-align: center;
@@ -520,7 +520,7 @@ ul {
   margin-top: 200px; }
 
 .form-button {
-  background-color: #000000;
+  background-color: #FFFFFF;
   border: 2px solid #FFFFFF;
   border-radius: 44px;
   color: #FFFFFF;

@@ -6,23 +6,22 @@
   padding-top: 50px ;
 }
 
-.center {
-  margin: 0 auto ;
-  width: 1400px ;
-}
 .content-box {
 
   background-color: $white;
-  display: flex ;
-  margin: 0 auto ;
-  margin-top: 200px ;
+  display: flex;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 900px;
 }
 
 #image-about-me{
 
   background-image: url(../../img/about-me.jpg);
   background-size: cover;
-  width: 2000px ;
+  //height: 550px;
+  width: 1500px ;
 }
 .img-about-me img {
 
@@ -32,8 +31,7 @@
 }
 
 .text-about-me {
-
-  padding: 10px ;
+  padding: 20px;
 }
 
 .text-about-me {
@@ -47,11 +45,14 @@
   p {
 
     font-family: $roboto ;
-    font-size: 1.875em ;
-    margin-bottom: 100px ;
-    text-align: center ;
+    font-size: 1.125em ;
   }
 }
+
+.hero-about-me{
+  padding-top: 500px;
+}
+
 
 .hero-about-me-content{
 
@@ -66,6 +67,7 @@
   border-radius: 44px;
   color: $brown;
   display: inline-block;
+  font-family: $roboto;
   outline: none;
   padding: 8px;
   text-align: center;
