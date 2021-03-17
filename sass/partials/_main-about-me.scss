@@ -31,6 +31,7 @@
 }
 
 .text__about-me {
+  height: 300px;
   padding: 20px;
 }
 
@@ -56,9 +57,13 @@
 
 .hero__about-me__content{
 
-  color: $brown ;
-  margin-bottom: 100px ;
-  margin-left: 190px ;
+  color: $brown;
+  padding-right: 100px;
+  z-index: 1;
+  a+a{
+    float: right;
+    margin-bottom: 10px;
+  }
 }
 
 .hero__about-me__content a {
@@ -73,7 +78,7 @@
   text-align: center;
   text-decoration: none;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  width: 100px;
+  width: 200px;
 }
 .hero__about-me__content a:hover {
   background-color: $orange-hover;
