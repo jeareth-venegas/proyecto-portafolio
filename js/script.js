@@ -12,9 +12,12 @@ fetch(linkGithub)
       // creo un a para hacer un href con el link del repo
       // una lista de todos los repositorio
       // cada uno tiene nombre y el link correspondiente
-      const nameRepository = document.createElement('a');
-      nameRepository.setAttribute('href', `${data[i].html_url}`);
-      nameRepository.innerHTML = data[i].name;
-      li.appendChild(nameRepository);
-    }
-  });
+      //const nameRepository = document.createElement('a');
+      //nameRepository.setAttribute('href', `${data[i].html_url}`);
+      //nameRepository.innerHTML = data[i].name;
+      //li.appendChild(nameRepository);
+    //}
+  //});
+
+
+  // cambio del script aquí:
