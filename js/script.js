@@ -13,8 +13,10 @@ fetch(linkGithub)
       // una lista de todos los repositorio
       // cada uno tiene nombre y el link correspondiente
       const nameRepository = document.createElement('a');
-      nameRepository.setAttribute('href', `${data[i].html_url}`);
-      nameRepository.innerHTML = data[i].name;
-      li.appendChild(nameRepository);
-    }
-  });
+      // nameRepository.setAttribute('href', `${data[i].html_url}`);
+      // nameRepository.innerHTML = data[i].name;
+      //li.appendChild(nameRepository);
+    //}
+  // });
+
+// notas: el llamar todos los repositorios no funcionó. Probar el inner.html y meterlo todo dentro del ul del portfolio.html ***
